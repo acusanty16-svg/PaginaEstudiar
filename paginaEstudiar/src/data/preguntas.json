@@ -1,0 +1,128 @@
+[
+  {
+    "idAsignatura": "prog",
+    "preguntas": [
+      { "id": "prog-q1", "idTema": "prog-3", "pregunta": "¿Qué efecto tiene el modificador static?", "opciones": ["Restringir el acceso solo al paquete actual", "Variable compartida por todas las instancias", "Hace la clase abstracta", "Permite herencia múltiple"], "respuestaCorrecta": 1 },
+      { "id": "prog-q2", "idTema": "prog-6", "pregunta": "¿Qué método de HashMap devuelve todos los valores?", "opciones": ["keySet()", "values()", "entrySet()", "getAll()"], "respuestaCorrecta": 1 },
+      { "id": "prog-q3", "idTema": "prog-2", "pregunta": "¿Qué es un objeto en POO?", "opciones": ["Una categoría o plantilla", "Una instancia específica creada a partir de una clase", "Un método constructor", "Un tipo de dato"], "respuestaCorrecta": 1 },
+      { "id": "prog-q4", "idTema": "prog-2", "pregunta": "¿Para qué sirve el método equals()?", "opciones": ["Determinar si son instancias de la misma clase", "Comparar contenido o valor de dos objetos", "Asignar memoria al objeto", "Crear una copia del objeto"], "respuestaCorrecta": 1 },
+      { "id": "prog-q5", "idTema": "prog-8", "pregunta": "¿Qué método JDBC se usa para ejecutar un SELECT?", "opciones": ["executeSelect()", "executeQuery()", "execute()", "executeStatement()"], "respuestaCorrecta": 1 },
+      { "id": "prog-q6", "idTema": "prog-11", "pregunta": "¿Qué contenedor JavaFX organiza componentes en columna vertical?", "opciones": ["FlowPane", "VBox", "GridPane", "HBox"], "respuestaCorrecta": 1 },
+      { "id": "prog-q7", "idTema": "prog-5", "pregunta": "¿Qué método da el tamaño de un ArrayList?", "opciones": ["length()", "size()", "getLength()", "count()"], "respuestaCorrecta": 1 },
+      { "id": "prog-q8", "idTema": "prog-5", "pregunta": "¿Qué es mejor para inserciones intermedias?", "opciones": ["ArrayList por acceso directo", "LinkedList porque solo actualiza referencias O(1)", "HashMap por rapidez", "Array convencional"], "respuestaCorrecta": 1 },
+      { "id": "prog-q9", "idTema": "prog-6", "pregunta": "¿Qué devuelve HashMap.get() si la clave no existe?", "opciones": ["NullPointerException", "null", "0", "false"], "respuestaCorrecta": 1 },
+      { "id": "prog-q10", "idTema": "prog-8", "pregunta": "¿En qué índice empiezan los parámetros de PreparedStatement?", "opciones": ["0", "1", "Depende del tipo de dato", "No tienen índice"], "respuestaCorrecta": 1 },
+      { "id": "prog-q11", "idTema": "prog-9", "pregunta": "¿Cómo se controla transacciones en JDBC?", "opciones": ["autoCommit(true)", "setAutoCommit(false)", "startTransaction()", "beginTransaction()"], "respuestaCorrecta": 1 },
+      { "id": "prog-q12", "idTema": "prog-8", "pregunta": "¿Qué significa TYPE_SCROLL_INSENSITIVE en ResultSet?", "opciones": ["Solo desplazamiento hacia adelante", "Bidireccional (adelante y atrás)", "Solo lectura", "Actualizable"], "respuestaCorrecta": 1 },
+      { "id": "prog-q13", "idTema": "prog-13", "pregunta": "¿Cuándo se ejecuta el Garbage Collector?", "opciones": ["Cuando se ejecuta System.gc()", "Cuando no hay referencias activas al objeto", "Cuando la memoria está llena", "Cuando termina el programa"], "respuestaCorrecta": 1 },
+      { "id": "prog-q14", "idTema": "prog-4", "pregunta": "¿Qué es el polimorfismo?", "opciones": ["El cambio dinámico del tipo de datos", "Invocación de métodos según el objeto concreto en memoria", "La capacidad de herenciar de varias clases", "El uso de interfaces"], "respuestaCorrecta": 1 },
+      { "id": "prog-q15", "idTema": "prog-7", "pregunta": "¿Cuál es la sintaxis correcta de Streams para filtrar?", "opciones": ["list.filter(x -> x > 5).toList()", "lista.stream().filter(x -> x > 5).collect(Collectors.toList())", "lista.map(x -> x > 5)", "lista.filter(x -> x > 5)"], "respuestaCorrecta": 1 },
+      { "id": "prog-q16", "idTema": "prog-1", "pregunta": "¿Qué es el autoboxing?", "opciones": ["Convertir primitivo a Wrapper automáticamente", "Crear un array de objetos", "Usar métodos estáticos", "Definir tipos genéricos"], "respuestaCorrecta": 0 },
+      { "id": "prog-q17", "idTema": "prog-10", "pregunta": "¿Qué diferencia hay entre throw y throws?", "opciones": ["Son iguales", "throw lanza excepción, throws declara que un método puede lanzar", "throw para checked, throws para unchecked", "throw dentro del método, throws en la llamada"], "respuestaCorrecta": 1 },
+      { "id": "prog-q18", "idTema": "prog-12", "pregunta": "¿Qué significa responsabilidad única en Clean Code?", "opciones": ["Una clase por archivo", "Cada función/módulo hace una sola cosa", "No usar herencia", "Escribir tests"], "respuestaCorrecta": 1 },
+      { "id": "prog-q19", "idTema": "prog-14", "pregunta": "¿Qué ventaja tiene Enum sobre constantes String?", "opciones": ["Ocupa menos memoria", "Type-safety: el compilador detecta valores incorrectos", "Es más rápido", "Se puede serializar"], "respuestaCorrecta": 1 },
+      { "id": "prog-q20", "idTema": "prog-15", "pregunta": "¿Qué es una interfaz funcional?", "opciones": ["Interfaz con solo métodos abstractos", "Interfaz con un único método abstracto (puede tener default)", "Interfaz para testing", "Interfaz que hereda de otra"], "respuestaCorrecta": 1 }
+    ]
+  },
+  {
+    "idAsignatura": "bd",
+    "preguntas": [
+      { "id": "bd-q1", "idTema": "bd-4", "pregunta": "¿Qué exige BCNF?", "opciones": ["Que no existan atributos multivaluados", "Que cada determinante sea una clave candidata", "Que todas las claves sean compuestas", "Que no haya claves primarias"], "respuestaCorrecta": 1 },
+      { "id": "bd-q2", "idTema": "bd-3", "pregunta": "¿Cómo se transforma una entidad E-R a modelo relacional?", "opciones": ["En una columna de una tabla más grande", "Entidad → Tabla, Atributo → Columna, Clave → PK", "En un archivo externo", "Solo los atributos principales"], "respuestaCorrecta": 1 },
+      { "id": "bd-q3", "idTema": "bd-8", "pregunta": "¿Qué es la integridad referencial?", "opciones": ["Que no existan valores duplicados en ninguna columna", "Garantiza que cada FK exista como PK", "Que todas las tablas tengan clave primaria", "Que los datos sean consistentes"], "respuestaCorrecta": 1 },
+      { "id": "bd-q4", "idTema": "bd-7", "pregunta": "¿Dónde se coloca la FK en relaciones 1:N?", "opciones": ["En la tabla del lado 1", "En la tabla del lado N", "En una tabla intermedia", "No se usa FK"], "respuestaCorrecta": 1 },
+      { "id": "bd-q5", "idTema": "bd-7", "pregunta": "¿Cuál es la diferencia entre PRIMARY KEY y UNIQUE?", "opciones": ["Son iguales", "PK no permite NULL y solo una; UNIQUE permite varios NULL", "UNIQUE es más importante", "PK permite valores duplicados"], "respuestaCorrecta": 1 },
+      { "id": "bd-q6", "idTema": "bd-6", "pregunta": "¿Qué hace el comodín % en LIKE?", "opciones": ["Un solo carácter cualquiera", "Cualquier secuencia de caracteres", "Solo números", "Comienza con mayúscula"], "respuestaCorrecta": 1 },
+      { "id": "bd-q7", "idTema": "bd-6", "pregunta": "¿Qué hace INNER JOIN?", "opciones": ["Todas las filas de izquierda + coincidencias", "Solo filas con coincidencia en ambas tablas", "Todas las filas de derecha", "Filas sin coincidencia"], "respuestaCorrecta": 1 },
+      { "id": "bd-q8", "idTema": "bd-6", "pregunta": "¿Qué hace DELETE vs DROP?", "opciones": ["Son iguales", "DELETE elimina datos, estructura queda; DROP elimina todo", "DROP solo elimina la estructura", "DELETE elimina la base de datos"], "respuestaCorrecta": 1 },
+      { "id": "bd-q9", "idTema": "bd-4", "pregunta": "¿Qué es la 1FN?", "opciones": ["Primera Forma Normal: atributos atómicos, sin grupos repetitivos", "Tablas sin claves", "Sin relaciones entre tablas", "Sin restricciones"], "respuestaCorrecta": 0 },
+      { "id": "bd-q10", "idTema": "bd-5", "pregunta": "¿Para qué sirve GRANT y REVOKE?", "opciones": ["Crear tablas", "Conceder y revocar permisos a usuarios", "Hacer backups", "Optimizar consultas"], "respuestaCorrecta": 1 },
+      { "id": "bd-q11", "idTema": "bd-6", "pregunta": "¿Qué hace BETWEEN?", "opciones": ["Ordenar resultados", "Rango inclusivo (equivale a >= AND <=)", "Buscar en lista", "Agrupar datos"], "respuestaCorrecta": 1 },
+      { "id": "bd-q12", "idTema": "bd-2", "pregunta": "¿Qué indica cardinalidad N:M en un E-R?", "opciones": ["Un A se relaciona con un B", "Un A con varios B y viceversa", "A y B son independientes", "Solo existe una relación"], "respuestaCorrecta": 1 },
+      { "id": "bd-q13", "idTema": "bd-4", "pregunta": "¿Qué es la 2FN?", "opciones": ["Tablas con al menos 2 columnas", "Está en 1FN + todo atributo depende de toda la clave primaria", "2 formas normales juntas", "Tablas con clave compuesta"], "respuestaCorrecta": 1 },
+      { "id": "bd-q14", "idTema": "bd-1", "pregunta": "¿Qué es una entidad en una BD?", "opciones": ["Una relación entre tablas", "Un objeto del mundo real con datos que se almacenan", "Una consulta guardada", "Una vista de la base de datos"], "respuestaCorrecta": 1 },
+      { "id": "bd-q15", "idTema": "bd-5", "pregunta": "¿Qué hace ALTER TABLE?", "opciones": ["Elimina una tabla", "Modifica la estructura de una tabla existente", "Crea una nueva tabla", "Duplica una tabla"], "respuestaCorrecta": 1 },
+      { "id": "bd-q16", "idTema": "bd-3", "pregunta": "¿Qué es una clave foránea (FK)?", "opciones": ["Clave que se usa para encriptar", "Columna que referencia la PK de otra tabla", "Clave que permite acceso rápido", "Clave que nunca se repite"], "respuestaCorrecta": 1 }
+    ]
+  },
+  {
+    "idAsignatura": "edd",
+    "preguntas": [
+      { "id": "edd-q1", "idTema": "edd-7", "pregunta": "¿Qué muestra un Diagrama de Estados UML?", "opciones": ["Una relación de herencia entre clases", "El ciclo de vida de un objeto (estados y transiciones)", "La estructura de datos", "Los casos de uso del sistema"], "respuestaCorrecta": 1 },
+      { "id": "edd-q2", "idTema": "edd-7", "pregunta": "¿Cuántos estados inicial puede tener un diagrama de estados?", "opciones": ["Cero o más", "Exactamente uno", "Dos", "Depende del sistema"], "respuestaCorrecta": 1 },
+      { "id": "edd-q3", "idTema": "edd-3", "pregunta": "¿Cuál es el objetivo del Sprint en Scrum?", "opciones": ["Documentar exhaustivamente la arquitectura", "Producir un incremento potencialmente entregable", "Realizar pruebas unitarias", "Revisar el código"], "respuestaCorrecta": 1 },
+      { "id": "edd-q4", "idTema": "edd-5", "pregunta": "¿Qué son las pruebas de integración?", "opciones": ["Verificar cada función individual de manera aislada", "Validar la comunicación entre diferentes módulos", "Probar la interfaz de usuario", "Medir el rendimiento"], "respuestaCorrecta": 1 },
+      { "id": "edd-q5", "idTema": "edd-3", "pregunta": "¿Cuál es responsabilidad del Product Owner?", "opciones": ["Desarrollo directo del código", "Definir prioridades del producto y gestionar backlog", "Hacer testing", "Administrar servidores"], "respuestaCorrecta": 1 },
+      { "id": "edd-q6", "idTema": "edd-2", "pregunta": "¿Qué hace git clone?", "opciones": ["Crear una rama nueva", "Descargar repositorio completo", "Enviar cambios al remoto", "Combinar ramas"], "respuestaCorrecta": 1 },
+      { "id": "edd-q7", "idTema": "edd-4", "pregunta": "¿Qué garantiza el patrón Singleton?", "opciones": ["Herencia múltiple", "Una única instancia de clase", "Polimorfismo", "Código más rápido"], "respuestaCorrecta": 1 },
+      { "id": "edd-q8", "idTema": "edd-4", "pregunta": "¿Para qué sirve el patrón Builder?", "opciones": ["Crear objetos complejos de forma simple", "Eliminar objetos", "Copiar clases", "Ejecutar pruebas"], "respuestaCorrecta": 1 },
+      { "id": "edd-q9", "idTema": "edd-5", "pregunta": "¿Qué es refactorización?", "opciones": ["Añadir nuevas funcionalidades", "Mejorar código sin cambiar comportamiento", "Eliminar código antiguo", "Hacer el código más largo"], "respuestaCorrecta": 1 },
+      { "id": "edd-q10", "idTema": "edd-6", "pregunta": "¿Qué indica una composición (◆) en UML?", "opciones": ["Herencia múltiple", "El objeto padre contiene al hijo y es responsable de su ciclo de vida", "Asociación bidireccional", "Uso de una interfaz"], "respuestaCorrecta": 1 },
+      { "id": "edd-q11", "idTema": "edd-2", "pregunta": "¿Qué hace git status?", "opciones": ["Envía cambios al remoto", "Muestra el estado del repositorio local (modificaciones, archivos sin tracked)", "Crea un nuevo commit", "Lista todas las ramas"], "respuestaCorrecta": 1 },
+      { "id": "edd-q12", "idTema": "edd-1", "pregunta": "¿Qué fase del ciclo de vida valida que el software cumple requisitos?", "opciones": ["Análisis", "Diseño", "Pruebas", "Mantenimiento"], "respuestaCorrecta": 2 },
+      { "id": "edd-q13", "idTema": "edd-3", "pregunta": "¿Cuánto dura típicamente un Sprint?", "opciones": ["1 día", "1 semana", "2 a 4 semanas", "6 meses"], "respuestaCorrecta": 2 },
+      { "id": "edd-q14", "idTema": "edd-4", "pregunta": "¿Qué hace el patrón Factory Method?", "opciones": ["Crear una factoría de objetos", "Crear objetos sin especificar la clase exacta", "Destruir objetos", "Copiar objetos"], "respuestaCorrecta": 1 }
+    ]
+  },
+  {
+    "idAsignatura": "lm",
+    "preguntas": [
+      { "id": "lm-q1", "idTema": "lm-1", "pregunta": "¿Qué etiqueta HTML se usa para hipervínculos?", "opciones": ["<link>", "<a>", "<url>", "<href>"], "respuestaCorrecta": 1 },
+      { "id": "lm-q2", "idTema": "lm-1", "pregunta": "¿Qué significa XML?", "opciones": ["Extended Markup Language", "eXtensible Markup Language", "Example Markup Language", "Extra Modern Language"], "respuestaCorrecta": 1 },
+      { "id": "lm-q3", "idTema": "lm-1", "pregunta": "¿Qué propiedad CSS es para el interlineado?", "opciones": ["text-spacing", "line-height", "letter-spacing", "word-spacing"], "respuestaCorrecta": 1 },
+      { "id": "lm-q4", "idTema": "lm-1", "pregunta": "¿Qué propiedad Flexbox alinea en el eje principal?", "opciones": ["align-items", "align-content", "justify-content", "flex-direction"], "respuestaCorrecta": 2 },
+      { "id": "lm-q5", "idTema": "lm-1", "pregunta": "¿Qué hace overflow:auto?", "opciones": ["Ajusta automáticamente el tamaño del contenedor", "Añade barras solo cuando es necesario", "Oculta el contenido que sobra", "Hace el contenido más pequeño"], "respuestaCorrecta": 1 },
+      { "id": "lm-q6", "idTema": "lm-1", "pregunta": "¿Qué atributo especifica la URL de un enlace HTML?", "opciones": ["link", "url", "href", "src"], "respuestaCorrecta": 2 },
+      { "id": "lm-q7", "idTema": "lm-1", "pregunta": "¿Qué función CSS permite cambiar dimensiones?", "opciones": ["grow()", "scale()", "resize()", "zoom()"], "respuestaCorrecta": 1 },
+      { "id": "lm-q8", "idTema": "lm-1", "pregunta": "¿Qué unidad CSS es relativa al tamaño de fuente del elemento raíz?", "opciones": ["em", "rem", "px", "%"], "respuestaCorrecta": 1 },
+      { "id": "lm-q9", "idTema": "lm-1", "pregunta": "¿Qué diferencia hay entre display:none y visibility:hidden?", "opciones": ["Son iguales", "display:none elimina elemento y espacio; visibility:hidden oculta pero mantiene espacio", "visibility elimina el elemento", "display solo oculta"], "respuestaCorrecta": 1 },
+      { "id": "lm-q10", "idTema": "lm-1", "pregunta": "¿Qué selector CSS es para IDs?", "opciones": [".id", "#id", "id", "*id"], "respuestaCorrecta": 1 },
+      { "id": "lm-q11", "idTema": "lm-1", "pregunta": "¿Qué propiedad CSS permite animaciones con @keyframes?", "opciones": ["animation-name", "transition", "keyframes", "Todos los anteriores"], "respuestaCorrecta": 3 },
+      { "id": "lm-q12", "idTema": "lm-1", "pregunta": "¿Qué hace box-sizing: border-box?", "opciones": ["Añade un borde al modelo de cajas", "Incluye padding y border en el ancho total", "Crea un borde con sombras", "Elimina el padding"], "respuestaCorrecta": 1 },
+      { "id": "lm-q13", "idTema": "lm-1", "pregunta": "¿Qué es CSS Grid?", "opciones": ["Un framework CSS", "Sistema de diseño en dos dimensiones", "Un método para centrar contenido", "Una herramienta de animación"], "respuestaCorrecta": 1 },
+      { "id": "lm-q14", "idTema": "lm-1", "pregunta": "¿Qué hace flex-direction: column?", "opciones": ["Coloca los elementos en fila horizontal", "Coloca los elementos en columna vertical", "Centra los elementos", "Elimina los márgenes"], "respuestaCorrecta": 1 }
+    ]
+  },
+  {
+    "idAsignatura": "si",
+    "preguntas": [
+      { "id": "si-q1", "idTema": "si-10", "pregunta": "¿Cómo se abrevia correctamente IPv6 2001:0db8:85a3:0000:0000:8a2e:0370:7334?", "opciones": ["2001:db8:85a3:0:0:8a2e:370:7334", "2001:db8:85a3::8a2e:370:7334", "2001:db8:85a3:0:0:8a2e:0370:7334", "2001:db8:85a3:8a2e:370:7334"], "respuestaCorrecta": 1 },
+      { "id": "si-q2", "idTema": "si-7", "pregunta": "¿Qué requiere Windows 11 para instalarse?", "opciones": ["BIOS Legacy + MBR", "UEFI + GPT", "BIOS Legacy + GPT", "UEFI + MBR"], "respuestaCorrecta": 1 },
+      { "id": "si-q3", "idTema": "si-8", "pregunta": "¿Qué tabla de particiones para disco >2TB?", "opciones": ["MBR", "GPT", "FAT32", "NTFS"], "respuestaCorrecta": 1 },
+      { "id": "si-q4", "idTema": "si-2", "pregunta": "¿Cómo eliminar directorio con contenido en Linux?", "opciones": ["rmdir -all", "rm -r", "delete -r", "rmdir -rf"], "respuestaCorrecta": 1 },
+      { "id": "si-q5", "idTema": "si-5", "pregunta": "¿Cómo crear un archivo vacío en Windows?", "opciones": ["touch archivo.txt", "type nul > archivo.txt", "echo > archivo.txt", "create archivo.txt"], "respuestaCorrecta": 1 },
+      { "id": "si-q6", "idTema": "si-8", "pregunta": "¿Qué sistema de archivos para archivos >4GB?", "opciones": ["FAT32", "ext3", "NTFS", "ext4"], "respuestaCorrecta": 2 },
+      { "id": "si-q7", "idTema": "si-12", "pregunta": "¿Qué caracteriza al software libre?", "opciones": ["Garantía de soporte técnico oficial", "Código fuente disponible, permite modificación y redistribución", "Es siempre gratuito", "No requiere conocimientos técnicos"], "respuestaCorrecta": 1 },
+      { "id": "si-q8", "idTema": "si-2", "pregunta": "¿Cómo ver el manual de un comando en Linux?", "opciones": ["help comando", "man comando", "info comando", "doc comando"], "respuestaCorrecta": 1 },
+      { "id": "si-q9", "idTema": "si-3", "pregunta": "¿Cuál es el permiso octal de rwxr-xr-x?", "opciones": ["777", "755", "644", "700"], "respuestaCorrecta": 1 },
+      { "id": "si-q10", "idTema": "si-4", "pregunta": "¿Cómo ver espacio en particiones Linux?", "opciones": ["ls -la /mnt", "df -h", "mount", "du"], "respuestaCorrecta": 1 },
+      { "id": "si-q11", "idTema": "si-9", "pregunta": "¿Cuál es el broadcast de subred 192.168.50.12/30?", "opciones": ["192.168.50.12", "192.168.50.15", "192.168.50.14", "192.168.50.255"], "respuestaCorrecta": 1 },
+      { "id": "si-q12", "idTema": "si-6", "pregunta": "¿Cómo ver contenido de archivo en Windows?", "opciones": ["cat archivo.txt", "type archivo.txt", "show archivo.txt", "view archivo.txt"], "respuestaCorrecta": 1 },
+      { "id": "si-q13", "idTema": "si-1", "pregunta": "¿Qué es el kernel?", "opciones": ["Una aplicación de usuario", "El núcleo del SO que gestiona recursos hardware", "Un lenguaje de programación", "Un sistema de archivos"], "respuestaCorrecta": 1 },
+      { "id": "si-q14", "idTema": "si-3", "pregunta": "¿Qué hace chmod u+x?", "opciones": ["Añade permiso de ejecución al usuario propietario", "Elimina permisos al grupo", "Cambia el propietario del archivo", "Crea un directorio"], "respuestaCorrecta": 0 },
+      { "id": "si-q15", "idTema": "si-9", "pregunta": "¿Qué es una dirección IP?", "opciones": ["Un nombre de dominio", "Un identificador numérico de un dispositivo en una red", "Un protocolo de red", "Un tipo de servidor"], "respuestaCorrecta": 1 },
+      { "id": "si-q16", "idTema": "si-11", "pregunta": "¿Qué es un hipervisor tipo 2?", "opciones": ["Software que se ejecuta sobre el SO huésped", "Firmware del sistema", "Un tipo de sistema de archivos", "Un protocolo de red"], "respuestaCorrecta": 0 }
+    ]
+  },
+  {
+    "idAsignatura": "fol",
+    "preguntas": [
+      { "id": "fol-q1", "idTema": "fol-12", "pregunta": "¿Cuánto paga la empresa en Incapacidad Temporal días 1-35?", "opciones": ["75%", "50%", "60%", "100%"], "respuestaCorrecta": 2 },
+      { "id": "fol-q2", "idTema": "fol-2", "pregunta": "¿Cuál es el primer principio de prevención de riesgos?", "opciones": ["Evaluar los riesgos", "Evitar riesgos en su origen", "Aplicar medidas correctoras", "Proteger al trabajador"], "respuestaCorrecta": 1 },
+      { "id": "fol-q3", "idTema": "fol-7", "pregunta": "¿Qué color en triaje es para pacientes graves/urgentes?", "opciones": ["Verde", "Amarillo", "Rojo", "Negro"], "respuestaCorrecta": 2 },
+      { "id": "fol-q4", "idTema": "fol-7", "pregunta": "¿Cuál es la frecuencia correcta de compresiones en RCP adulto?", "opciones": ["40-60 por minuto", "80-100 por minuto", "100-120 por minuto", "60-80 por minuto"], "respuestaCorrecta": 2 },
+      { "id": "fol-q5", "idTema": "fol-6", "pregunta": "¿Qué significa PAS en primeros auxilios?", "opciones": ["Parada, Auxiliar, Soporte", "Proteger, Alertar, Socorrer", "Proceder, Atender, Salvaguardar", "Prevenir, Ayudar, Socorrer"], "respuestaCorrecta": 1 },
+      { "id": "fol-q6", "idTema": "fol-10", "pregunta": "¿Cuántos días de permiso por matrimonio?", "opciones": ["1 día", "2 días", "3 días", "5 días"], "respuestaCorrecta": 1 },
+      { "id": "fol-q7", "idTema": "fol-11", "pregunta": "¿Qué instrumento establece el salario?", "opciones": ["La nómina mensual", "El contrato de trabajo", "El convenio colectivo", "La Seguridad Social"], "respuestaCorrecta": 1 },
+      { "id": "fol-q8", "idTema": "fol-13", "pregunta": "¿Qué consecuencia tiene el despido nulo?", "opciones": ["Indemnización de 33 días/año", "Readmisión obligatoria", "Finiquito normal", "Despido sin consecuencias"], "respuestaCorrecta": 1 },
+      { "id": "fol-q9", "idTema": "fol-14", "pregunta": "¿Qué es el principio de norma más favorable?", "opciones": ["Aplicar la ley de forma estricta", "Ante varias normas, se aplica la más beneficiosa para el trabajador", "Priorizar el convenio sobre la ley", "Aplicar siempre el Estatuto de Trabajadores"], "respuestaCorrecta": 1 },
+      { "id": "fol-q10", "idTema": "fol-13", "pregunta": "¿Cuál es la indemnización por despido improcedente?", "opciones": ["15 días/año máximo 12 mensualidades", "20 días/año", "33 días/año máximo 24 mensualidades", "45 días/año"], "respuestaCorrecta": 2 },
+      { "id": "fol-q11", "idTema": "fol-10", "pregunta": "¿Los días de cierre empresarial cuentan en vacaciones?", "opciones": ["No, son días adicionales", "Sí, cuentan dentro de los 30 días", "Solo si el trabajador lo pide", "Depende del convenio"], "respuestaCorrecta": 1 },
+      { "id": "fol-q12", "idTema": "fol-11", "pregunta": "¿Qué límite tienen las retribuciones en especie?", "opciones": ["Sin límite", "Máximo 20%", "Máximo 30%", "Máximo 50%"], "respuestaCorrecta": 2 },
+      { "id": "fol-q13", "idTema": "fol-1", "pregunta": "¿Cuál es la Ley de PRL?", "opciones": ["Ley 31/1995 de 8 de noviembre", "Ley 40/2007", "RD 39/1997", "Ley 8/2005"], "respuestaCorrecta": 0 },
+      { "id": "fol-q14", "idTema": "fol-2", "pregunta": "¿En qué consiste el principio de prevención?", "opciones": ["Intervenir únicamente después de que causen daño", "Intervenir ANTES de que causen daño", "Solo cuando haya un accidente", "Cuando lo indique la inspección"], "respuestaCorrecta": 1 },
+      { "id": "fol-q15", "idTema": "fol-9", "pregunta": "¿Qué tipo de contrato es para sustituir a un trabajador con reserva de puesto?", "opciones": ["Contrato de obra", "Contrato de sustitución", "Contrato eventual", "Contrato fijo discontinuo"], "respuestaCorrecta": 1 },
+      { "id": "fol-q16", "idTema": "fol-8", "pregunta": "¿Qué elementos caracterizan la relación laboral?", "opciones": ["Voluntariedad, dependencia, retribución, ajenidad", "Solo salario y horario", "Solo subordinación jerárquica", "Contrato escrito y testigos"], "respuestaCorrecta": 0 }
+    ]
+  }
+]

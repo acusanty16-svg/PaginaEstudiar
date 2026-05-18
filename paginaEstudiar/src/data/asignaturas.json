@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prog",
+    "nombre": "Programación",
+    "descripcion": "Java, POO, JDBC, Colecciones, Streams",
+    "icono": "💻"
+  },
+  {
+    "id": "bd",
+    "nombre": "Base de Datos",
+    "descripcion": "SQL, Modelos E-R, Normalización, Transacciones",
+    "icono": "🗄️"
+  },
+  {
+    "id": "edd",
+    "nombre": "Entornos de Desarrollo",
+    "descripcion": "Git, UML, Scrum, Patrones de diseño, Pruebas",
+    "icono": "⚙️"
+  },
+  {
+    "id": "lm",
+    "nombre": "Lenguaje de Marcas",
+    "descripcion": "HTML, CSS, Flexbox, Grid, XML",
+    "icono": "🏷️"
+  },
+  {
+    "id": "si",
+    "nombre": "Sistemas Informáticos",
+    "descripcion": "Linux, Windows, Redes, Virtualización",
+    "icono": "🖥️"
+  },
+  {
+    "id": "fol",
+    "nombre": "FOL",
+    "descripcion": "Relaciones laborales, Prevención, PRL, Seguridad Social",
+    "icono": "📋"
+  }
+]

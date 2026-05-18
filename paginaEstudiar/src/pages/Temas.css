@@ -1,0 +1,33 @@
+.temas-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.temas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tema-card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.tema-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--text-dark);
+}
+
+.tema-card p {
+  margin: 0;
+  color: var(--gray);
+}
+
+.tema-actions {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}

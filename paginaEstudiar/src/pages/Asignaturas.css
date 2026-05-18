@@ -1,0 +1,41 @@
+.asignaturas-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.asignaturas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.asignatura-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.asignatura-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.asignatura-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.asignatura-card h3 {
+  margin: 0.5rem 0;
+  color: var(--text-dark);
+}
+
+.asignatura-card p {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin: 0;
+}

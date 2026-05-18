@@ -1,0 +1,88 @@
+[
+  {
+    "idAsignatura": "prog",
+    "temas": [
+      { "id": "prog-1", "titulo": "Variables y Tipos de Datos", "contenido": "Tipos primitivos, Wrapper classes, Autoboxing, Type casting" },
+      { "id": "prog-2", "titulo": "Constructores y POO", "contenido": "Clases, objetos, constructores, this, sobrecarga, == vs equals()" },
+      { "id": "prog-3", "titulo": "Modificador static", "contenido": "Variables compartidas, acceso sin instanciar, métodos static" },
+      { "id": "prog-4", "titulo": "Herencia e Interfaces", "contenido": "extends, implements, Polimorfismo, Duck typing, override" },
+      { "id": "prog-5", "titulo": "ArrayList y Colecciones", "contenido": "add(), get(), size(), iteraciones, for-each, ArrayList vs LinkedList" },
+      { "id": "prog-6", "titulo": "HashMap", "contenido": "put(), get(), containsKey(), keySet(), values(), null si no existe" },
+      { "id": "prog-7", "titulo": "Streams de Java", "contenido": "stream(), filter(), collect(), findFirst(), sintaxis lambda" },
+      { "id": "prog-8", "titulo": "JDBC - Conexión a BBDD", "contenido": "executeQuery(), executeUpdate(), PreparedStatement, índices en 1" },
+      { "id": "prog-9", "titulo": "Control de Transacciones", "contenido": "setAutoCommit(), commit(), rollback(), savepoints" },
+      { "id": "prog-10", "titulo": "Excepciones", "contenido": "Checked vs Unchecked, try-catch-finally, throws, throw" },
+      { "id": "prog-11", "titulo": "JavaFX", "contenido": "VBox, HBox, GridPane, Scene, Stage, layout managers" },
+      { "id": "prog-12", "titulo": "Clean Code", "contenido": "Funciones pequeñas, responsabilidad única, nombres descriptivos" },
+      { "id": "prog-13", "titulo": "Garbage Collector", "contenido": "Liberación automática, System.gc(), referencias activas" },
+      { "id": "prog-14", "titulo": "Enum vs Constantes", "contenido": "Type-safety, detección de casos faltantes, switch con enum" },
+      { "id": "prog-15", "titulo": "Interfaces Funcionales", "contenido": "Consumer, Supplier, Predicate, Function, lambda expressions" },
+      { "id": "prog-16", "titulo": "JUnit y Testing", "contenido": "Anotaciones @Test, @Before, @After, assertEquals, fail()" }
+    ]
+  },
+  {
+    "idAsignatura": "bd",
+    "temas": [
+      { "id": "bd-1", "titulo": "Fundamentos de BD", "contenido": "Conceptos básicos, modelos de datos, entidades, atributos, instancias" },
+      { "id": "bd-2", "titulo": "Modelo E-R y Diagramas", "contenido": "Entidades, atributos, relaciones, cardinalidad, participación" },
+      { "id": "bd-3", "titulo": "Diseño Lógico Relacional", "contenido": "Transformación E-R a modelo relacional, tablas, claves" },
+      { "id": "bd-4", "titulo": "Normalización", "contenido": "1FN, 2FN, 3FN, BCNF, dependencias funcionales" },
+      { "id": "bd-5", "titulo": "SQL - DDL", "contenido": "CREATE, ALTER, DROP, restricciones, índices" },
+      { "id": "bd-6", "titulo": "SQL - DML", "contenido": "SELECT, INSERT, UPDATE, DELETE, filtros con WHERE" }
+    ]
+  },
+  {
+    "idAsignatura": "edd",
+    "temas": [
+      { "id": "edd-1", "titulo": "Introducción al Desarrollo", "contenido": "Ciclo de vida del software, análisis, diseño, implementación, mantenimiento" },
+      { "id": "edd-2", "titulo": "Git y Github", "contenido": "clone, pull, push, commit, add, ramas, merge, conflictos" },
+      { "id": "edd-3", "titulo": "Metodologías Ágiles", "contenido": "Scrum, Sprint, roles (Product Owner, Scrum Master, Equipo), eventos" },
+      { "id": "edd-4", "titulo": "Patrones de Diseño", "contenido": "Singleton, Builder, Factory, Observer, Strategy" },
+      { "id": "edd-5", "titulo": "Pruebas de Software", "contenido": "Unitarias, Integración, Aceptación, JUnit, cobertura" },
+      { "id": "edd-6", "titulo": "UML - Diagramas de Clases", "contenido": "Clases, relaciones (herencia, composición, agregación), visibilidad" },
+      { "id": "edd-7", "titulo": "UML - Diagramas de Estados", "contenido": "Estados, transiciones, eventos, estados inicial y final" }
+    ]
+  },
+  {
+    "idAsignatura": "fol",
+    "temas": [
+      { "id": "fol-1", "titulo": "Ley de PRL 31/1995", "contenido": "Derechos y obligaciones de trabajadores y empresarios, servicios de prevención" },
+      { "id": "fol-2", "titulo": "Técnicas de Prevención", "contenido": "Jerarquía: evitar → evaluar → medidas colectivas → individuales" },
+      { "id": "fol-3", "titulo": "Higiene Industrial", "contenido": "Agentes biológicos, químicos y físicos, evaluación de riesgos" },
+      { "id": "fol-4", "titulo": "Ergonomía", "contenido": "Posturas, diseño del puesto, riesgos musculoesqueléticos, fatiga" },
+      { "id": "fol-5", "titulo": "Plan de Emergencia", "contenido": "Evaluación de riesgos, señalización, equipos de emergencia, simulacros" },
+      { "id": "fol-6", "titulo": "Primeros Auxilios", "contenido": "PAS (Proteger, Alertar, Socorrer), evaluación del herido" },
+      { "id": "fol-7", "titulo": "RCP y Triaje", "contenido": "30:2, 100-120 comp/min, 5cm profundidad, tarjetas (rojo/amarillo/verde/negro)" },
+      { "id": "fol-8", "titulo": "Relación Laboral", "contenido": "Voluntariedad, dependencia, retribución, ajenidad, poderes del empresario" },
+      { "id": "fol-9", "titulo": "Tipos de Contrato", "contenido": "Indefinido, temporal, fijo discontinuo, prácticas, aprendizaje" },
+      { "id": "fol-10", "titulo": "Jornada y Descansos", "contenido": "40h/semana anual, descansos entre jornadas, permisos retribuidos" },
+      { "id": "fol-11", "titulo": "Salario y Nómina", "contenido": "BCCC, BCCP, retribuciones en especie (máx 30%), recibo de salario" },
+      { "id": "fol-12", "titulo": "Seguridad Social e IT", "contenido": "IT: empresa 60% días 1-35, SS/mutua 75% desde día 36" },
+      { "id": "fol-13", "titulo": "Despidos", "contenido": "Nulo (readmisión obligatoria), Improcedente (33 días/año máx 24 meses), Objetivo" },
+      { "id": "fol-14", "titulo": "Convenio Colectivo", "contenido": "Mejora sobre la ley, principio de norma más favorable, ámbito de aplicación" }
+    ]
+  },
+  {
+    "idAsignatura": "lm",
+    "temas": [
+      { "id": "lm-1", "titulo": "HTML, CSS y XML", "contenido": "Estructura HTML, hipervínculos, tablas, formularios, selectores CSS, modelo de cajas, Flexbox, Grid, animaciones, unidades, XML" }
+    ]
+  },
+  {
+    "idAsignatura": "si",
+    "temas": [
+      { "id": "si-1", "titulo": "Fundamentos de SO", "contenido": "Funciones del SO, tipos, kernel, shell, procesos, hilos" },
+      { "id": "si-2", "titulo": "Linux - Comandos Básicos", "contenido": "ls, cd, mkdir, rm, cp, mv, cat, whoami, man" },
+      { "id": "si-3", "titulo": "Linux - Permisos", "contenido": "chmod, rwx (4-2-1), permisos octales (755), usuario y grupo" },
+      { "id": "si-4", "titulo": "Linux - Ficheros y SO", "contenido": "df -h, du, rm -r, rmdir, rmdir, shutdown, init" },
+      { "id": "si-5", "titulo": "Windows - Comandos CLI", "contenido": "cd, type, rmdir, mkdir, copy, move, del, cls" },
+      { "id": "si-6", "titulo": "Windows - Archivos y SO", "contenido": "type nul > (crear), type (ver contenido), attrib, compact" },
+      { "id": "si-7", "titulo": "Instalación de SO", "contenido": "UEFI vs BIOS Legacy, GPT vs MBR, Windows 11 requisitos" },
+      { "id": "si-8", "titulo": "Particiones y FS", "contenido": "NTFS, FAT32, ext3/4, GPT (>2TB), MBR (≤2TB), tablas de particiones" },
+      { "id": "si-9", "titulo": "Redes - Direccionamiento IPv4", "contenido": "Direcciones IP, máscaras, subredes, cálculo de broadcast, CIDR" },
+      { "id": "si-10", "titulo": "Redes - IPv6", "contenido": "Abreviación IPv6, :: para secuencia de ceros, formatos 6to4" },
+      { "id": "si-11", "titulo": "Virtualización", "contenido": "VMWare, VirtualBox, contenedores, hipervisores tipo 1 y 2" },
+      { "id": "si-12", "titulo": "Software Libre", "contenido": "Código abierto, modificación, redistribución, licencias GPL, MIT" }
+    ]
+  }
+]

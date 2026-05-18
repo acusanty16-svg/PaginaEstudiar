@@ -1,0 +1,283 @@
+:root {
+  --primary: #667eea;
+  --primary-dark: #764ba2;
+  --success: #48bb78;
+  --danger: #f56565;
+  --text-dark: #2d3748;
+  --text-light: #4a5568;
+  --gray: #718096;
+  --light: #f7fafc;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background: #f5f7fa;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+button {
+  font-family: inherit;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.back-btn {
+  background: var(--gray);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.back-btn:hover {
+  background: var(--text-light);
+}
+
+.action-btn {
+  background: var(--success);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  #main-content {
+    padding: 1rem;
+  }
+
+  #header {
+    padding: 0.75rem 1rem;
+  }
+
+  #header .header-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  #header .logo {
+    font-size: 1.2rem;
+  }
+
+  #header .nav {
+    gap: 0.5rem;
+  }
+
+  #header .nav-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    padding: 2rem 1rem;
+  }
+
+  #hero .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero .hero-content p {
+    font-size: 1rem;
+  }
+
+  #hero .hero-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .welcome {
+    padding: 1.5rem 0;
+  }
+
+  .welcome h3 {
+    font-size: 1.3rem;
+  }
+
+  .asignaturas-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .asignatura-card {
+    padding: 1rem;
+  }
+
+  .asignatura-icon {
+    font-size: 2rem;
+  }
+
+  .temas-list {
+    margin: 1rem 0;
+  }
+
+  .tema-card {
+    padding: 1rem;
+  }
+
+  .tema-actions {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .temas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tema-card-selectable {
+    padding: 1rem;
+  }
+
+  .quiz-container {
+    gap: 1rem;
+  }
+
+  .pregunta-card {
+    padding: 1rem;
+  }
+
+  .flashcards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .flashcard {
+    height: 180px;
+  }
+
+  #footer {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #header {
+    padding: 0.5rem;
+  }
+
+  #header .logo {
+    font-size: 1rem;
+  }
+
+  #header .nav-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+
+  #hero {
+    padding: 1.5rem 0.75rem;
+  }
+
+  #hero .hero-content h2 {
+    font-size: 1.3rem;
+  }
+
+  #hero .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  #hero .hero-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+  }
+
+  #main-content {
+    padding: 0.75rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .back-btn,
+  .action-btn,
+  .check-btn {
+    width: 100%;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  .action-btn {
+    margin-bottom: 0.5rem;
+  }
+
+  .tema-actions {
+    flex-direction: column;
+  }
+
+  .tema-actions .action-btn {
+    margin-bottom: 0;
+  }
+
+  .asignatura-card h3 {
+    font-size: 1rem;
+  }
+
+  .asignatura-card p {
+    font-size: 0.8rem;
+  }
+
+  .pregunta-text {
+    font-size: 0.95rem;
+  }
+
+  .opcion span {
+    font-size: 0.9rem;
+  }
+
+  .flashcard-front p,
+  .flashcard-back p {
+    font-size: 0.9rem;
+  }
+
+  .flip-hint {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .asignaturas-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .flashcards-container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
