@@ -2,10 +2,10 @@
   {
     "idAsignatura": "prog",
     "temas": [
-      { "id": "prog-1", "titulo": "Variables y Tipos de Datos", "contenido": "Tipos primitivos, Wrapper classes, Autoboxing, Type casting" },
-      { "id": "prog-2", "titulo": "Constructores y POO", "contenido": "Clases, objetos, constructores, this, sobrecarga, == vs equals()" },
-      { "id": "prog-3", "titulo": "Modificador static", "contenido": "Variables compartidas, acceso sin instanciar, métodos static" },
-      { "id": "prog-4", "titulo": "Herencia e Interfaces", "contenido": "extends, implements, Polimorfismo, Duck typing, override" },
+      { "id": "prog-1", "titulo": "Fundamentos y entornos de programacion", "contenido": "JDK, Programas, algoritmos y estructuras basicas" },
+      { "id": "prog-2", "titulo": "Identificacion de elementos de un programa", "contenido": "Estructura de un programa Java, variables, constantes y operadores" },
+      { "id": "prog-3", "titulo": "Estructuras de control", "contenido": "if, else-if, switch" },
+      { "id": "prog-4", "titulo": "Estructuras de almacenamiento", "contenido": "Arrays unidimensionales y Arrays multidimensionales y metodos utiles de String" },
       { "id": "prog-5", "titulo": "ArrayList y Colecciones", "contenido": "add(), get(), size(), iteraciones, for-each, ArrayList vs LinkedList" },
       { "id": "prog-6", "titulo": "HashMap", "contenido": "put(), get(), containsKey(), keySet(), values(), null si no existe" },
       { "id": "prog-7", "titulo": "Streams de Java", "contenido": "stream(), filter(), collect(), findFirst(), sintaxis lambda" },

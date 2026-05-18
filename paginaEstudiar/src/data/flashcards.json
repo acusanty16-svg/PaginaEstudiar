@@ -2,28 +2,50 @@
   {
     "idAsignatura": "prog",
     "tarjetas": [
-      { "id": "prog-f1", "idTema": "prog-3", "anverso": "¿Qué es una variable static?", "reverso": "Variable compartida por todas las instancias de la clase. Se accede con NombreClase.variable" },
-      { "id": "prog-f2", "idTema": "prog-2", "anverso": "¿Cuál es la diferencia entre == y equals()?", "reverso": "== compara referencias (dirección memoria), equals() compara contenido (puede sobrescribirse)" },
-      { "id": "prog-f3", "idTema": "prog-13", "anverso": "¿Cuándo se ejecuta el Garbage Collector?", "reverso": "Cuando no hay referencias activas apuntando al objeto. System.gc() solo sugiere, no garantiza" },
-      { "id": "prog-f4", "idTema": "prog-4", "anverso": "¿Qué es el Polimorfismo?", "reverso": "Invocación de métodos diferentes según el objeto concreto en memoria (Dynamic dispatch)" },
-      { "id": "prog-f5", "idTema": "prog-5", "anverso": "¿Qué colecciones permiten for-each?", "reverso": "Cualquier colección que implemente Iterable: ArrayList, LinkedList, HashSet, arrays" },
-      { "id": "prog-f6", "idTema": "prog-7", "anverso": "¿Cuál es la sintaxis correcta de Streams para filtrar?", "reverso": "lista.stream().filter(x -> x > 5).collect(Collectors.toList())" },
-      { "id": "prog-f7", "idTema": "prog-8", "anverso": "¿Qué método JDBC para SELECT?", "reverso": "executeQuery() - retorna ResultSet. Para INSERT/UPDATE/DELETE se usa executeUpdate()" },
-      { "id": "prog-f8", "idTema": "prog-5", "anverso": "¿Cómo crear un ArrayList vacío?", "reverso": "ArrayList<String> lista = new ArrayList<>(); Para tamaño se usa size(), no length" },
-      { "id": "prog-f9", "idTema": "prog-6", "anverso": "¿Qué devuelve HashMap.get() si no existe la clave?", "reverso": "null. Se puede usar containsKey() o getOrDefault() para evitar NullPointerException" },
-      { "id": "prog-f10", "idTema": "prog-8", "anverso": "¿Qué es PreparedStatement y cómo se usan los índices?", "reverso": "Sentencia precompilada. Los índices comienzan en 1: setInt(1, valor), setInt(2, valor)" },
-      { "id": "prog-f11", "idTema": "prog-9", "anverso": "¿Cómo controlar transacciones en JDBC?", "reverso": "setAutoCommit(false) → commit() para confirmar o rollback() para revertir" },
-      { "id": "prog-f12", "idTema": "prog-11", "anverso": "¿Qué es VBox en JavaFX?", "reverso": "Contenedor que organiza componentes en columna vertical (HBox = horizontal)" },
-      { "id": "prog-f13", "idTema": "prog-10", "anverso": "¿Qué son excepciones checked vs unchecked?", "reverso": "Checked: heredan de Exception (obligatorio catch/throws). Unchecked: RuntimeException (no obligatorio)" },
-      { "id": "prog-f14", "idTema": "prog-12", "anverso": "¿Qué principios sigue Clean Code?", "reverso": "Funciones pequeñas (<20 líneas), única responsabilidad, nombres descriptivos, código legible" },
-      { "id": "prog-f15", "idTema": "prog-1", "anverso": "¿Qué es el autoboxing en Java?", "reverso": "Conversión automática entre tipos primitivos y sus clases Wrapper (int ↔ Integer)" },
-      { "id": "prog-f16", "idTema": "prog-1", "anverso": "¿Cuál es la diferencia entre int e Integer?", "reverso": "int es primitivo (8 bytes, más rápido). Integer es Wrapper class (objeto, permite null, métodos)" },
-      { "id": "prog-f17", "idTema": "prog-2", "anverso": "¿Qué hace la palabra clave this?", "reverso": "Referencia al objeto actual. Se usa para diferenciar parámetros de atributos y para encadenar constructores" },
-      { "id": "prog-f18", "idTema": "prog-4", "anverso": "¿Qué significa override en herencia?", "reverso": "Sobrescribir un método de la clase padre en la clase hija con la misma firma" },
-      { "id": "prog-f19", "idTema": "prog-6", "anverso": "¿Qué es un HashMap?", "reverso": "Colección que almacena pares clave-valor. Búsqueda O(1) promedio mediante hash" },
-      { "id": "prog-f20", "idTema": "prog-14", "anverso": "¿Por qué usar Enum en lugar de constantes?", "reverso": "Type-safety, el compilador detecta casos faltantes en switch, más legible y mantenible" },
-      { "id": "prog-f21", "idTema": "prog-15", "anverso": "¿Qué es una expresión lambda?", "reverso": "Función anónima sin nombre. Sintaxis: (parametros) -> expresión o (parametros) -> { bloque; }" },
-      { "id": "prog-f22", "idTema": "prog-16", "anverso": "¿Qué anotación se usa para definir un test en JUnit?", "reverso": "@Test. Se usa sobre métodos para indicar que son casos de prueba" }
+      { "id": "prog-f1", "idTema": "prog-1", "anverso": "¿Componente no fundamental del JDK(Java Development Kit)?", "reverso": "Un navegador web integrado para ejecutar applets Java" },
+      { "id": "prog-f2", "idTema": "prog-1", "anverso": "¿Cuál es la característica principal de las versiones LTS (Long Term Support) de Java?", "reverso": "Proporcionan estabilidad y soporte a largo plazo" },
+      { "id": "prog-f3", "idTema": "prog-1", "anverso": "¿Qué IDE destaca especificamente por su inteligencia artificial integrada que sugiere correcciones y refactorizaciones?", "reverso": "IntelliJ IDEA destaca por IA integrada" },
+      { "id": "prog-f4", "idTema": "prog-1", "anverso": "¿Cuál es el propósito principal de Git en el desarrollo de software moderno?", "reverso": "Rastrear cambios en el código, crear ramas y coordinar trabajo en equipo" },
+      { "id": "prog-f5", "idTema": "prog-1", "anverso": "Según el material de estudio, ¿cuál es la definición correcta de un algoritmo?", "reverso": "Una secuencia lógica, finita y no ambigua de pasos diseñada para resolver un problema específico" },
+      { "id": "prog-f6", "idTema": "prog-1", "anverso": "Según el teorema de Böhm-Jacopini, ¿cuáles son las tres estructuras fundamentales suficientes para expresar cualquier algoritmo computable?", "reverso": "Secuencia, selección e iteración)" },
+      { "id": "prog-f7", "idTema": "prog-1", "anverso": "¿Cuál es el orden correcto para compilar y ejecutar un programa Java desde la terminal?", "reverso": "javac NombreClase.java → java NombreClase" },
+      { "id": "prog-f8", "idTema": "prog-1", "anverso": "¿Cuál es una ventaja principal que ofrecen los IDEs modernos respecto a la ejecución en terminal?", "reverso": "Depuración paso a paso con puntos de interrupción e inspección de variables" },
+      { "id": "prog-f9", "idTema": "prog-1", "anverso": "¿Cuál de estos comandos Git se utiliza para guardar una versión del código en el repositorio local?", "reverso": "git commit" },
+
+
+      { "id": "prog-f10", "idTema": "prog-2", "anverso": "¿Cuál es el método obligatorio que actúa como punto de entrada en toda aplicación Java?", "reverso": "public static void main(String[] args)" },
+      { "id": "prog-f11", "idTema": "prog-2", "anverso": "¿Qué significa que Java sea un lenguaje de tipificación fuerte?", "reverso": "Requiere declarar el tipo de cada variable antes de usarla" },
+      { "id": "prog-f12", "idTema": "prog-2", "anverso": "¿Cómo se declara correctamente una constante en Java?", "reverso": "final double PI = 3.14159;-Se utiliza la palabra clave final con mayúsculas por convención" },
+      { "id": "prog-f13", "idTema": "prog-2", "anverso": "Si ejecutas el código int resultado = 17 % 5;, ¿qué valor almacenará la variable resultado?", "reverso": "2-porque 17 mod 5 = 2 (el operador % devuelve el residuo)" },
+      { "id": "prog-f14", "idTema": "prog-2", "anverso": "¿Cuál es un tipo de referencia en Java?", "reverso": "String es un tipo de referencia; int, double y boolean son primitivos" },
+      { "id": "prog-f15", "idTema": "prog-2", "anverso": "¿Cuál de estas conversiones de tipos Java realiza automáticamente sin necesidad de casting explícito?", "reverso": " int a long. Java convierte automáticamente int a long sin pérdida de datos" },
+      { "id": "prog-f16", "idTema": "prog-2", "anverso": "Si tienes double valor = 3.99; y ejecutas int numero = (int) valor;, ¿qué valor contendrá numero?", "reverso": "3. El casting explícito (int) trunca la parte decimal: 3.99 → 3" },
+      { "id": "prog-f17", "idTema": "prog-2", "anverso": "¿Cuál de estos comentarios genera automáticamente documentación HTML mediante Javadoc?", "reverso": "Los comentarios /** **/ se procesan con Javadoc" },
+      { "id": "prog-f18", "idTema": "prog-2", "anverso": "¿Cuál es la convención correcta para nombrar una variable que almacene el salario mensual de un empleado?", "reverso": "camelCase es la convención para variables (salarioMensual)" },
+
+
+      { "id": "prog-f19", "idTema": "prog-3", "anverso": "¿Cuál es la función principal de una estructura if en Java?", "reverso": "Evaluar una expresión booleana y ejecutar código solo si es verdadera" },
+      { "id": "prog-f20", "idTema": "prog-3", "anverso": "¿Cuál es la diferencia fundamental entre if-else e if simple?", "reverso": "if-else proporciona una alternativa (else) cuando la condición es falsa" },
+      { "id": "prog-f21", "idTema": "prog-3", "anverso": "¿Cuándo es más apropiado usar una cadena if-else-if en lugar de múltiples if independientes?", "reverso": "if-else-if evalúa múltiples condiciones mutuamente excluyentes de forma ordenada" },
+      { "id": "prog-f22", "idTema": "prog-3", "anverso": "¿En qué situación es más recomendable usar switch en lugar de if-else?", "reverso": "Cuando necesitas comparar una variable contra múltiples valores específicos y discretos" },
+      { "id": "prog-f23", "idTema": "prog-3", "anverso": "¿Cuál es la principal ventaja de las switch expressions introducidas en Java 14?", "reverso": "Las switch expressions eliminan la necesidad de break, haciendo código más seguro y conciso" },
+      { "id": "prog-f24", "idTema": "prog-3", "anverso": "¿Cuál es la característica principal que distingue do-while de while?", "reverso": "do-while garantiza al menos una ejecución antes de evaluar la condición" },
+      { "id": "prog-f25", "idTema": "prog-3", "anverso": "¿Cuál es el contexto ideal para usar un bucle for en lugar de while?", "reverso": "for es ideal cuando conoces el número exacto de iteraciones o trabajas con rangos" },
+      { "id": "prog-f26", "idTema": "prog-3", "anverso": "¿Cuál es la ventaja principal del bucle for-each (introducido en Java 5) sobre un for tradicional?", "reverso": "for-each simplifica iteración sobre colecciones y evita errores de índice comunes" },
+      { "id": "prog-f27", "idTema": "prog-3", "anverso": "¿Cuál es la recomendación general de buenas prácticas para limitar la profundidad de anidamiento en estructuras de control?", "reverso": "La recomendación es máximo 3-4 niveles de anidamiento para mantener legibilidad" },
+
+
+      { "id": "prog-f28", "idTema": "prog-4", "anverso": "Un array unidimensional es una secuencia contigua de elementos homogéneos en memoria", "reverso": "if-else proporciona una alternativa (else) cuando la condición es falsa" },
+      { "id": "prog-f29", "idTema": "prog-4", "anverso": "Si declaramos int[] numeros = new int[5];, ¿cuál es el índice del último elemento?", "reverso": "Con tamaño 5, los índices van de 0 a 4; el último índice es 4" },
+      { "id": "prog-f30", "idTema": "prog-4", "anverso": "¿Qué ocurre si intentamos acceder a numeros[5] en el array del ejercicio anterior?", "reverso": "Acceder fuera de rango lanza ArrayIndexOutOfBoundsException en tiempo de ejecución" },
+      { "id": "prog-f31", "idTema": "prog-4", "anverso": "Dado el array int[][] matriz = new int[3][4];, ¿qué representa la expresión matriz[1][2]?", "reverso": "El primer índice es la fila (1 → segunda), el segundo es la columna (2 → tercera)" },
+      { "id": "prog-f32", "idTema": "prog-4", "anverso": "¿Cuál de las siguientes sentencias obtiene correctamente la longitud de un array unidimensional llamado datos?", "reverso": "En Java la longitud del array se obtiene con la propiedad length, sin paréntesis" },
+      { "id": "prog-f33", "idTema": "prog-4", "anverso": "¿Cuál es la forma correcta de declarar e inicializar un array de enteros con los valores 1, 2, 3, 4 y 5?", "reverso": "La sintaxis {1, 2, 3, 4, 5} es la forma correcta de inicialización literal"},
+      { "id": "prog-f34", "idTema": "prog-4", "anverso": "¿Qué significa que los objetos de tipo String en Java sean inmutables?", "reverso": "Cualquier operación que modifica un String crea un nuevo objeto en memoria" },
+      { "id": "prog-f35", "idTema": "prog-4", "anverso": "¿Qué instrucción compara correctamente el contenido de ambas cadenas?", "reverso": "equals() compara el contenido de las cadenas; == compara referencias" },
+      { "id": "prog-f36", "idTema": "prog-4", "anverso": "¿Qué método utilizarías para eliminar espacios en blanco al principio y al final de una cadena llamada texto?", "reverso": "trim() elimina espacios en blanco al inicio y al final de la cadena" },
+      { "id": "prog-f37", "idTema": "prog-4", "anverso": "¿Por qué se recomienda usar StringBuilder cuando se realizan muchas concatenaciones de texto dentro de un bucle?", "reverso": "StringBuilder permite modificar el texto sin crear nuevos objetos, mejorando el rendimiento" }
+      
     ]
   },
   {
