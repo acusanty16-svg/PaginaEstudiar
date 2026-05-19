@@ -6,7 +6,7 @@
       { "id": "prog-2", "titulo": "Identificacion de elementos de un programa", "contenido": "Estructura de un programa Java, variables, constantes y operadores" },
       { "id": "prog-3", "titulo": "Estructuras de control", "contenido": "if, else-if, switch" },
       { "id": "prog-4", "titulo": "Estructuras de almacenamiento", "contenido": "Arrays unidimensionales y Arrays multidimensionales y metodos utiles de String" },
-      { "id": "prog-5", "titulo": "ArrayList y Colecciones", "contenido": "add(), get(), size(), iteraciones, for-each, ArrayList vs LinkedList" },
+      { "id": "prog-5", "titulo": "Programacion orientada a objetos", "contenido": "POO, Herencia y polimorfismo, interfaces y clases abstractas" },
       { "id": "prog-6", "titulo": "HashMap", "contenido": "put(), get(), containsKey(), keySet(), values(), null si no existe" },
       { "id": "prog-7", "titulo": "Streams de Java", "contenido": "stream(), filter(), collect(), findFirst(), sintaxis lambda" },
       { "id": "prog-8", "titulo": "JDBC - Conexión a BBDD", "contenido": "executeQuery(), executeUpdate(), PreparedStatement, índices en 1" },
@@ -34,32 +34,29 @@
   {
     "idAsignatura": "edd",
     "temas": [
-      { "id": "edd-1", "titulo": "Introducción al Desarrollo", "contenido": "Ciclo de vida del software, análisis, diseño, implementación, mantenimiento" },
-      { "id": "edd-2", "titulo": "Git y Github", "contenido": "clone, pull, push, commit, add, ramas, merge, conflictos" },
-      { "id": "edd-3", "titulo": "Metodologías Ágiles", "contenido": "Scrum, Sprint, roles (Product Owner, Scrum Master, Equipo), eventos" },
-      { "id": "edd-4", "titulo": "Patrones de Diseño", "contenido": "Singleton, Builder, Factory, Observer, Strategy" },
-      { "id": "edd-5", "titulo": "Pruebas de Software", "contenido": "Unitarias, Integración, Aceptación, JUnit, cobertura" },
-      { "id": "edd-6", "titulo": "UML - Diagramas de Clases", "contenido": "Clases, relaciones (herencia, composición, agregación), visibilidad" },
-      { "id": "edd-7", "titulo": "UML - Diagramas de Estados", "contenido": "Estados, transiciones, eventos, estados inicial y final" }
+      { "id": "edd-1", "titulo": "Introduccion al desarrollo de software", "contenido": "" },
+      { "id": "edd-2", "titulo": "Control de versiones de Git y Github", "contenido": "" },
+      { "id": "edd-3", "titulo": "Metodologias agiles y entornos de desarrollo", "contenido": "" },
+      { "id": "edd-4", "titulo": "Optimizacion patrones y buenas practicas", "contenido": "" },
+      { "id": "edd-5", "titulo": "Pruebas y depuracion de software", "contenido": "" },
+      { "id": "edd-6", "titulo": "Modelado UML-Diagramas de clases", "contenido": "" },
+      { "id": "edd-7", "titulo": "Modelado UML-Diagramas de comportamiento", "contenido": "" }
     ]
   },
   {
     "idAsignatura": "fol",
     "temas": [
-      { "id": "fol-1", "titulo": "Ley de PRL 31/1995", "contenido": "Derechos y obligaciones de trabajadores y empresarios, servicios de prevención" },
-      { "id": "fol-2", "titulo": "Técnicas de Prevención", "contenido": "Jerarquía: evitar → evaluar → medidas colectivas → individuales" },
-      { "id": "fol-3", "titulo": "Higiene Industrial", "contenido": "Agentes biológicos, químicos y físicos, evaluación de riesgos" },
-      { "id": "fol-4", "titulo": "Ergonomía", "contenido": "Posturas, diseño del puesto, riesgos musculoesqueléticos, fatiga" },
-      { "id": "fol-5", "titulo": "Plan de Emergencia", "contenido": "Evaluación de riesgos, señalización, equipos de emergencia, simulacros" },
-      { "id": "fol-6", "titulo": "Primeros Auxilios", "contenido": "PAS (Proteger, Alertar, Socorrer), evaluación del herido" },
-      { "id": "fol-7", "titulo": "RCP y Triaje", "contenido": "30:2, 100-120 comp/min, 5cm profundidad, tarjetas (rojo/amarillo/verde/negro)" },
-      { "id": "fol-8", "titulo": "Relación Laboral", "contenido": "Voluntariedad, dependencia, retribución, ajenidad, poderes del empresario" },
-      { "id": "fol-9", "titulo": "Tipos de Contrato", "contenido": "Indefinido, temporal, fijo discontinuo, prácticas, aprendizaje" },
-      { "id": "fol-10", "titulo": "Jornada y Descansos", "contenido": "40h/semana anual, descansos entre jornadas, permisos retribuidos" },
-      { "id": "fol-11", "titulo": "Salario y Nómina", "contenido": "BCCC, BCCP, retribuciones en especie (máx 30%), recibo de salario" },
-      { "id": "fol-12", "titulo": "Seguridad Social e IT", "contenido": "IT: empresa 60% días 1-35, SS/mutua 75% desde día 36" },
-      { "id": "fol-13", "titulo": "Despidos", "contenido": "Nulo (readmisión obligatoria), Improcedente (33 días/año máx 24 meses), Objetivo" },
-      { "id": "fol-14", "titulo": "Convenio Colectivo", "contenido": "Mejora sobre la ley, principio de norma más favorable, ámbito de aplicación" }
+      { "id": "fol-1", "titulo": "Ley de Prevención de Riesgos Laborales", "contenido": "Ley 31/1995 de 8 de noviembre. Derechos de trabajadores: formación, información, participación, vigilancia salud. Obligaciones: usar equipos, informar riesgos, cooperar. Órgano: Comité de Seguridad y Salud. Organizaciones: OIT, OMS, INSST, ITSS" },
+      { "id": "fol-2", "titulo": "Técnicas de Prevención", "contenido": "Técnicas: 1-Evitar riesgos, 2-Evaluar riesgos (gravedad y probabilidad), 3-Adaptar trabajo a persona, 4-Actualización técnica, 5-Priorizar colectiva vs individual, 6-Formar e informar. Ramas: Seguridad (evitar accidentes), Higiene (enfermedades profesionales), Ergonomía (problemas musculoesqueléticos). Salud mental: estrés, burnout, mobbing, carga mental" },
+      { "id": "fol-3", "titulo": "Plan de Emergencia y Primeros Auxilios", "contenido": "Plan: 1-Evaluación riesgos, 2-Medios protección, 3-Organización interna, 4-Procedimientos actuación, 5-Señalización y simulacros. PAS: Proteger, Avisar, Socorrer. RCP: 30:2, 100-120 comp/min. Triaje: Roja (máxima prioridad), Amarilla (2º), Verde (3º), Negra (fallecidos)" },
+      { "id": "fol-4", "titulo": "Relación Laboral", "contenido": "Estatuto de Trabajadores regula derechos. Requisitos relación laboral: Voluntariedad, Dependencia, Remuneración, Personalidad, Ajenidad. Excluidos: funcionarios, prestaciones obligatorias, administradores, trabajos familiares. Especiales: alta dirección, hogar, penados, deportistas. Jerarquía: Constitución > Leyes > Reglamentos. Principio norma más favorable. Convenios colectivos mejoran ley" },
+      { "id": "fol-5", "titulo": "Contratos de Trabajo", "contenido": "Requisitos: mayor de edad o 16-18 con autorización. Elementos: consentimiento, objeto, causa. Formas: escrito (todos excepto indefinite ordinario y <4 semanas verbal). Tipos: indefinido, fijo discontinuo, temporal (circunstancias producción), sustitución, alternancia" },
+      { "id": "fol-6", "titulo": "Jornada, Descansos y Salario", "contenido": "Jornada: 40h/semana anual, 10% distribuible. Descansos: durante jornada (15min/6h), entre jornadas (12h), semanal (día y medio). Especiales: nocturno (22:00-6:00), turnos, riesgos. Horas extras: voluntarias (80h/año máximo) y obligatorias. Nómina: devengos (salario base + pluses), BCCC (percepciones salariales + prorrata), BCCP (+ horas extras). Salario en especie máx 30%. SMI: 17.094€" },
+      { "id": "fol-7", "titulo": "Movilidad, Modificación y Extinción", "contenido": "Movilidad funcional: cambiar funciones (max 6-12 meses), no perjudicar dignidad, puede reclamar ascenso. Movilidad geográfica: traslado (30 días aviso, indemnización 20 días/año si rechaza) y desplazamiento. Modificación sustancial: aceptar, impugnar (20 días), finalize contrato (20 días/año máx 9 mensualidades) o bullying (33 días/año máx 720 días). Extinción: baja voluntaria (preaviso), retraso pago (3 meses impago=indemnización), despido disciplinario (improcedente: 33 días/año máx 24 meses, nulo: readmisión)" },
+      { "id": "fol-8", "titulo": "Seguridad Social y Prestaciones", "contenido": "Régimen general y especial. Contributivas (cotizaciones) y no contributivas (necesidad). IT contingencia común: empresa 60% días 1-35. IT contingencia profesional (accidente/enfermedad): 75% base reguladora. Incapacidad permanente: total (55%) y absoluta (100%). FOGASA: garantiza salarios e indemnizaciones si empresa insolvente" },
+      { "id": "fol-9", "titulo": "", "contenido": "" },
+      { "id": "fol-10", "titulo": "", "contenido": "" },
+      { "id": "fol-11", "titulo": "", "contenido": "" }
     ]
   },
   {
@@ -71,18 +68,7 @@
   {
     "idAsignatura": "si",
     "temas": [
-      { "id": "si-1", "titulo": "Fundamentos de SO", "contenido": "Funciones del SO, tipos, kernel, shell, procesos, hilos" },
-      { "id": "si-2", "titulo": "Linux - Comandos Básicos", "contenido": "ls, cd, mkdir, rm, cp, mv, cat, whoami, man" },
-      { "id": "si-3", "titulo": "Linux - Permisos", "contenido": "chmod, rwx (4-2-1), permisos octales (755), usuario y grupo" },
-      { "id": "si-4", "titulo": "Linux - Ficheros y SO", "contenido": "df -h, du, rm -r, rmdir, rmdir, shutdown, init" },
-      { "id": "si-5", "titulo": "Windows - Comandos CLI", "contenido": "cd, type, rmdir, mkdir, copy, move, del, cls" },
-      { "id": "si-6", "titulo": "Windows - Archivos y SO", "contenido": "type nul > (crear), type (ver contenido), attrib, compact" },
-      { "id": "si-7", "titulo": "Instalación de SO", "contenido": "UEFI vs BIOS Legacy, GPT vs MBR, Windows 11 requisitos" },
-      { "id": "si-8", "titulo": "Particiones y FS", "contenido": "NTFS, FAT32, ext3/4, GPT (>2TB), MBR (≤2TB), tablas de particiones" },
-      { "id": "si-9", "titulo": "Redes - Direccionamiento IPv4", "contenido": "Direcciones IP, máscaras, subredes, cálculo de broadcast, CIDR" },
-      { "id": "si-10", "titulo": "Redes - IPv6", "contenido": "Abreviación IPv6, :: para secuencia de ceros, formatos 6to4" },
-      { "id": "si-11", "titulo": "Virtualización", "contenido": "VMWare, VirtualBox, contenedores, hipervisores tipo 1 y 2" },
-      { "id": "si-12", "titulo": "Software Libre", "contenido": "Código abierto, modificación, redistribución, licencias GPL, MIT" }
+      { "id": "si-1", "titulo": "Preguntas de examen", "contenido": "L informacion que nos dio olga para el examen" }
     ]
   }
 ]
