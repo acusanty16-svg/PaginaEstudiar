@@ -10,6 +10,7 @@
       { "id": "prog-6", "titulo": "Excepciones", "contenido": "try-catch, throws, throw y Colecciones: list, Set, Map" },
       { "id": "prog-7", "titulo": "Entrada y salida de ficheros", "contenido": "Lectura scanner y manejo de ficheros y registros" },
       { "id": "prog-8", "titulo": "Interfaces graficas y desarrollo web basico", "contenido": "GUI, layouts y gestion de eventos, animaciones y efectos visuales" },
+      { "id": "prog-9", "titulo": "Conceptos Avanzados de Java", "contenido": "Modificadores de acceso, colecciones, estructuras de control y JavaFX" },
       { "id": "mpo-1", "titulo": "Excepciones", "contenido": "Checked vs Unchecked, try-catch-finally, throws, throw" },
       { "id": "mpo-2", "titulo": "JavaFX", "contenido": "VBox, HBox, GridPane, Scene, Stage, layout managers" },
       { "id": "mpo-3", "titulo": "Clean Code", "contenido": "Funciones pequeñas, responsabilidad única, nombres descriptivos" },
