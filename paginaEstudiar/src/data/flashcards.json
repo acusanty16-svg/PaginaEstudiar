@@ -92,8 +92,23 @@
       { "id": "prog-f74", "idTema": "prog-8", "anverso": "¿Qué layout de JavaFX organiza los elementos en filas y columnas como una tabla?", "reverso": "GridPane organiza los componentes en filas y columnas." },
       { "id": "prog-f75", "idTema": "prog-8", "anverso": "¿Qué método se utiliza en JavaFX para registrar un listener de eventos?", "reverso": "setOnAction() registra eventos en JavaFX." },
       { "id": "prog-f76", "idTema": "prog-8", "anverso": "¿Qué clase de JavaFX se utiliza para crear animaciones basadas en una secuencia temporal de KeyFrames?", "reverso": " Timeline permite crear animaciones basadas en KeyFrames." },
-      { "id": "prog-f77", "idTema": "prog-8", "anverso": "¿Qué patrón de arquitectura divide una aplicación en Modelo, Vista y Controlador?", "reverso": "MVC separa la aplicación en Modelo, Vista y Controlador." }
-      
+{ "id": "prog-f77", "idTema": "prog-8", "anverso": "¿Qué patrón de arquitectura divide una aplicación en Modelo, Vista y Controlador?", "reverso": "MVC separa la aplicación en Modelo, Vista y Controlador." },
+
+
+      { "id": "prog-f78", "idTema": "prog-9", "anverso": "Si una variable se declara dentro de un bloque if, ¿dónde puede usarse?", "reverso": "Solo dentro de ese bloque" },
+      { "id": "prog-f79", "idTema": "prog-9", "anverso": "¿Qué indica el modificador final de una variable?", "reverso": "Que su valor no se reasigna" },
+      { "id": "prog-f80", "idTema": "prog-9", "anverso": "¿Cuándo existe sobrecarga de métodos en Java?", "reverso": "Cuando dos métodos tienen el mismo nombre y distinta lista de parámetros" },
+      { "id": "prog-f81", "idTema": "prog-9", "anverso": "Si un atributo está declarado como protected, ¿quién puede acceder a él directamente?", "reverso": "Solo la propia clase y las subclases" },
+      { "id": "prog-f82", "idTema": "prog-9", "anverso": "¿Para qué sirve continue dentro de un bucle?", "reverso": "Salta a la siguiente iteración" },
+      { "id": "prog-f83", "idTema": "prog-9", "anverso": "¿Qué ocurre si en un switch falta el break al final de un case?", "reverso": "La ejecución continúa en el siguiente case" },
+      { "id": "prog-f84", "idTema": "prog-9", "anverso": "¿Cuál es una forma correcta de crear un array de 3 enteros en Java?", "reverso": "int[] array = new int[3]" },
+      { "id": "prog-f85", "idTema": "prog-9", "anverso": "¿Qué devuelve lista.size() en un ArrayList?", "reverso": "El número de elementos almacenados" },
+      { "id": "prog-f86", "idTema": "prog-9", "anverso": "¿Qué método añade un elemento al final de un ArrayList?", "reverso": "add()" },
+      { "id": "prog-f87", "idTema": "prog-9", "anverso": "En un HashMap<String, Integer>, ¿qué representa la clave?", "reverso": "El identificador usado para localizar el valor" },
+      { "id": "prog-f88", "idTema": "prog-9", "anverso": "Si se inserta en un HashMap una clave que ya existía, ¿qué sucede normalmente?", "reverso": "El valor anterior se reemplazará" },
+      { "id": "prog-f89", "idTema": "prog-9", "anverso": "En JavaFX, ¿qué es un Stage?", "reverso": "La ventana principal o contenedor superior" },
+      { "id": "prog-f90", "idTema": "prog-9", "anverso": "En JavaFX, ¿cuál de los elementos es un control final de interfaz de usuario?", "reverso": "Button" }
+       
     ]
   },
   {
