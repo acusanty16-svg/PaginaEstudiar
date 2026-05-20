@@ -23,12 +23,9 @@
   {
     "idAsignatura": "bd",
     "temas": [
-      { "id": "bd-1", "titulo": "Fundamentos de BD", "contenido": "Conceptos básicos, modelos de datos, entidades, atributos, instancias" },
-      { "id": "bd-2", "titulo": "Modelo E-R y Diagramas", "contenido": "Entidades, atributos, relaciones, cardinalidad, participación" },
-      { "id": "bd-3", "titulo": "Diseño Lógico Relacional", "contenido": "Transformación E-R a modelo relacional, tablas, claves" },
-      { "id": "bd-4", "titulo": "Normalización", "contenido": "1FN, 2FN, 3FN, BCNF, dependencias funcionales" },
-      { "id": "bd-5", "titulo": "SQL - DDL", "contenido": "CREATE, ALTER, DROP, restricciones, índices" },
-      { "id": "bd-6", "titulo": "SQL - DML", "contenido": "SELECT, INSERT, UPDATE, DELETE, filtros con WHERE" }
+      { "id": "bd-1", "titulo": "Preguntas de examen", "contenido": "30 preguntas de examen sobre SQL, modelado E-R, normalización y arquitectura ANSI/SPARC" },
+      { "id": "bd-2", "titulo": "Actividad Evaluable Semana Santa", "contenido": "Actividad evaluable sobre modelado E-R, normalización y SQL" },
+      { "id": "bd-3", "titulo": "", "contenido": "" }
     ]
   },
   {
