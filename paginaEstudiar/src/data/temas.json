@@ -25,7 +25,7 @@
     "temas": [
       { "id": "bd-1", "titulo": "Preguntas de examen", "contenido": "30 preguntas de examen sobre SQL, modelado E-R, normalización y arquitectura ANSI/SPARC" },
       { "id": "bd-2", "titulo": "Actividad Evaluable Semana Santa", "contenido": "Actividad evaluable sobre modelado E-R, normalización y SQL" },
-      { "id": "bd-3", "titulo": "", "contenido": "" }
+      { "id": "bd-3", "titulo": "Test Gestion de Bases de Datos", "contenido": "Test unidades 1, 2, 3 y 4 sobre modelos E-R, normalizacion y arquitectura" }
     ]
   },
   {
