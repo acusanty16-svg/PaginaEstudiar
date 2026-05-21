@@ -11,13 +11,10 @@
       { "id": "prog-7", "titulo": "Entrada y salida de ficheros", "contenido": "Lectura scanner y manejo de ficheros y registros" },
       { "id": "prog-8", "titulo": "Interfaces graficas y desarrollo web basico", "contenido": "GUI, layouts y gestion de eventos, animaciones y efectos visuales" },
       { "id": "prog-9", "titulo": "Conceptos Avanzados de Java", "contenido": "Modificadores de acceso, colecciones, estructuras de control y JavaFX" },
-      { "id": "mpo-1", "titulo": "Test MPO Java", "contenido": "Test sobre operadores, arrays, streams, switch expressions, POO y autoboxing" },
-      { "id": "mpo-2", "titulo": "Test Repaso Fundamentos Programacion", "contenido": "Test repaso sobre tipos de datos, operadores, arrays, POO, ArrayList y streams" },
-      { "id": "mpo-3", "titulo": "Test Respaso Fundamentos de Programacion", "contenido": "Test repaso sobre tipos de datos, operadores, bucles, ArrayList, POO, streams e interfaces" },
-      { "id": "mpo-4", "titulo": "Test Repaso Fundamentos de Programacion (2)", "contenido": "Test repaso sobre constantes, constructores, colecciones, sobrecarga y métodos" },
-      { "id": "mpo-2", "titulo": "", "contenido": "" },
-      { "id": "mpo-3", "titulo": "", "contenido": "" },
-      { "id": "mpo-4", "titulo": "", "contenido": "" }
+      { "id": "mpo-1", "titulo": "MPO - Test Java", "contenido": "Test sobre operadores, arrays, streams, switch expressions, POO y autoboxing" },
+      { "id": "mpo-2", "titulo": "MPO - Test Repaso Fundamentos Programacion", "contenido": "Test repaso sobre tipos de datos, operadores, arrays, POO, ArrayList y streams" },
+      { "id": "mpo-3", "titulo": "MPO - Test Respaso Fundamentos de Programacion", "contenido": "Test repaso sobre tipos de datos, operadores, bucles, ArrayList, POO, streams e interfaces" },
+      { "id": "mpo-4", "titulo": "MPO - Test Repaso Fundamentos de Programacion (2)", "contenido": "Test repaso sobre constantes, constructores, colecciones, sobrecarga y métodos" }
     ]
   },
   {
