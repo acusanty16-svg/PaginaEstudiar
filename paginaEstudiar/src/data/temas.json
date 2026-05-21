@@ -37,7 +37,10 @@
       { "id": "edd-4", "titulo": "Optimizacion patrones y buenas practicas", "contenido": "" },
       { "id": "edd-5", "titulo": "Pruebas y depuracion de software", "contenido": "" },
       { "id": "edd-6", "titulo": "Modelado UML-Diagramas de clases", "contenido": "" },
-      { "id": "edd-7", "titulo": "Modelado UML-Diagramas de comportamiento", "contenido": "" }
+      { "id": "edd-7", "titulo": "Modelado UML-Diagramas de comportamiento", "contenido": "" },
+      { "id": "edd-8", "titulo": "Simulacro Entornos de Desarrollo", "contenido": "Simulacro con preguntas sobre software, IDEs, Git, Scrum, Kanban, XP, patrones de diseño, SOLID, testing y UML" },
+      { "id": "edd-9", "titulo": "", "contenido": "" },
+      { "id": "edd-10", "titulo": "", "contenido": "" }
     ]
   },
   {
