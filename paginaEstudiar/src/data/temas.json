@@ -39,6 +39,8 @@
       { "id": "edd-6", "titulo": "Modelado UML-Diagramas de clases", "contenido": "" },
       { "id": "edd-7", "titulo": "Modelado UML-Diagramas de comportamiento", "contenido": "" },
       { "id": "edd-8", "titulo": "Simulacro Entornos de Desarrollo", "contenido": "Simulacro con preguntas sobre software, IDEs, Git, Scrum, Kanban, XP, patrones de diseño, SOLID, testing y UML" },
+      { "id": "edd-9", "titulo": "Actividad Evaluable Semana Santa", "contenido": "Actividad evaluable sobre control de versiones, refactorización, testing y metodologías ágiles" },
+      { "id": "edd-10", "titulo": "Test Entornos de Desarrollo Diciembre", "contenido": "Test UD1, UD2, UD3 y UD4 sobre software, IDEs, Git, Scrum, Kanban, XP, patrones de diseño, SOLID y testing" },
       { "id": "edd-9", "titulo": "", "contenido": "" },
       { "id": "edd-10", "titulo": "", "contenido": "" }
     ]
