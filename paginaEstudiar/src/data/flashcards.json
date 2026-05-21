@@ -107,8 +107,20 @@
       { "id": "prog-f87", "idTema": "prog-9", "anverso": "En un HashMap<String, Integer>, ¿qué representa la clave?", "reverso": "El identificador usado para localizar el valor" },
       { "id": "prog-f88", "idTema": "prog-9", "anverso": "Si se inserta en un HashMap una clave que ya existía, ¿qué sucede normalmente?", "reverso": "El valor anterior se reemplazará" },
       { "id": "prog-f89", "idTema": "prog-9", "anverso": "En JavaFX, ¿qué es un Stage?", "reverso": "La ventana principal o contenedor superior" },
-      { "id": "prog-f90", "idTema": "prog-9", "anverso": "En JavaFX, ¿cuál de los elementos es un control final de interfaz de usuario?", "reverso": "Button" }
-       
+{ "id": "prog-f90", "idTema": "prog-9", "anverso": "En JavaFX, ¿cuál de los elementos es un control final de interfaz de usuario?", "reverso": "Button" },
+
+
+      { "id": "mpo-f1", "idTema": "mpo-1", "anverso": "¿Qué valor tiene la expresión true && false || true en Java?", "reverso": "true" },
+      { "id": "mpo-f2", "idTema": "mpo-1", "anverso": "¿Cuál es el resultado de int x = 10; x += 2 * 3; System.out.println(x);?", "reverso": "16" },
+      { "id": "mpo-f3", "idTema": "mpo-1", "anverso": "En un bucle for(int i=0; i<=5; i++), ¿cuántas veces se ejecuta el bloque?", "reverso": "6" },
+      { "id": "mpo-f4", "idTema": "mpo-1", "anverso": "¿Qué excepción lanza int[] arr = new int[5]; arr[5] = 10;?", "reverso": "ArrayIndexOutOfBoundsException" },
+      { "id": "mpo-f5", "idTema": "mpo-1", "anverso": "¿Cuál es el tipo de dato adecuado para almacenar edad de persona?", "reverso": "int" },
+      { "id": "mpo-f6", "idTema": "mpo-1", "anverso": "¿Qué hace list.stream().filter(x -> x > 5).collect(Collectors.toList())?", "reverso": "Mantiene solo elementos > 5" },
+      { "id": "mpo-f7", "idTema": "mpo-1", "anverso": "En for(int i=0; i<10; i++) { if(i%3==0) continue; System.out.print(i); }, ¿qué imprime?", "reverso": "124578" },
+      { "id": "mpo-f8", "idTema": "mpo-1", "anverso": "En switch expression Java 14+: switch(grado) { case A -> \"Excelente\"; ... }, ¿qué característica tiene?", "reverso": "Final de caso automático" },
+      { "id": "mpo-f9", "idTema": "mpo-1", "anverso": "¿Qué representa una clase en programación orientada a objetos de Java?", "reverso": "Plantilla reutilizable para crear objetos" },
+      { "id": "mpo-f10", "idTema": "mpo-1", "anverso": "¿En qué escenario concreto se activa el proceso de unboxing automático en Java?", "reverso": "Wrapper se convierte en primitivo automáticamente" }
+        
     ]
   },
   {

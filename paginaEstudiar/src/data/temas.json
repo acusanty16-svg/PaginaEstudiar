@@ -11,13 +11,10 @@
       { "id": "prog-7", "titulo": "Entrada y salida de ficheros", "contenido": "Lectura scanner y manejo de ficheros y registros" },
       { "id": "prog-8", "titulo": "Interfaces graficas y desarrollo web basico", "contenido": "GUI, layouts y gestion de eventos, animaciones y efectos visuales" },
       { "id": "prog-9", "titulo": "Conceptos Avanzados de Java", "contenido": "Modificadores de acceso, colecciones, estructuras de control y JavaFX" },
-      { "id": "mpo-1", "titulo": "Excepciones", "contenido": "Checked vs Unchecked, try-catch-finally, throws, throw" },
-      { "id": "mpo-2", "titulo": "JavaFX", "contenido": "VBox, HBox, GridPane, Scene, Stage, layout managers" },
-      { "id": "mpo-3", "titulo": "Clean Code", "contenido": "Funciones pequeñas, responsabilidad única, nombres descriptivos" },
-      { "id": "mpo-4", "titulo": "Garbage Collector", "contenido": "Liberación automática, System.gc(), referencias activas" },
-      { "id": "mpo-5", "titulo": "Enum vs Constantes", "contenido": "Type-safety, detección de casos faltantes, switch con enum" },
-      { "id": "mpo-6", "titulo": "Interfaces Funcionales", "contenido": "Consumer, Supplier, Predicate, Function, lambda expressions" },
-      { "id": "mpo-7", "titulo": "JUnit y Testing", "contenido": "Anotaciones @Test, @Before, @After, assertEquals, fail()" }
+      { "id": "mpo-1", "titulo": "Test MPO Java", "contenido": "Test sobre operadores, arrays, streams, switch expressions, POO y autoboxing" },
+      { "id": "mpo-2", "titulo": "", "contenido": "" },
+      { "id": "mpo-3", "titulo": "", "contenido": "" },
+      { "id": "mpo-4", "titulo": "", "contenido": "" }
     ]
   },
   {
